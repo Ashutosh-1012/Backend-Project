@@ -1,0 +1,14 @@
+mport http from "http";
+const server = http.createServer((req,res)=>{
+    if(req.url==="/"){
+        res.end("<h1>THis is a home page</h1>")
+    }else{
+        res.end("sale sahi se url daba");
+        console.log("ho gaya");
+    }
+});
+
+server.listen(5000,()=>{
+    console.log("kam chal raha h");
+});
+-------------------------------------------------------------------------------------------------

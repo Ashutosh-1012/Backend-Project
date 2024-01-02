@@ -1,0 +1,1 @@
+console.log("hii,script is working now");

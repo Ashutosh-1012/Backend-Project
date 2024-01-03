@@ -1,4 +1,4 @@
-mport http from "http";
+import http from "http";
 const server = http.createServer((req,res)=>{
     if(req.url==="/"){
         res.end("<h1>THis is a home page</h1>")

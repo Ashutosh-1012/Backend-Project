@@ -43,3 +43,9 @@ button{
     font:400 1rem sans-serif;
 
 }
+.error{
+    color:red;
+    font-size: 0.9rem;
+    text-align: right;
+    margin: 1rem;
+}
